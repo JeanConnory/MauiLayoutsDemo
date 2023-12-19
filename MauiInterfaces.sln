@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lottie", "Lottie\Lottie.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bordas", "Bordas\Bordas.csproj", "{93F78989-8450-4216-BB03-2ED4D93FDBFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaHorizontal", "ListaHorizontal\ListaHorizontal.csproj", "{7EA80706-464E-4C69-B877-721313DE27BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,12 @@ Global
 		{93F78989-8450-4216-BB03-2ED4D93FDBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93F78989-8450-4216-BB03-2ED4D93FDBFA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{93F78989-8450-4216-BB03-2ED4D93FDBFA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7EA80706-464E-4C69-B877-721313DE27BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA80706-464E-4C69-B877-721313DE27BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA80706-464E-4C69-B877-721313DE27BA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7EA80706-464E-4C69-B877-721313DE27BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA80706-464E-4C69-B877-721313DE27BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA80706-464E-4C69-B877-721313DE27BA}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

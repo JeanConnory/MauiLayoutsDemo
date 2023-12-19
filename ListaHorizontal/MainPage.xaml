@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ListaHorizontal.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:ListaHorizontal">
+    <ContentPage.BindingContext>
+        <vm:ViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" VerticalOptions="Center">
+            <Label Text="Devices" />
+            <CollectionView ItemsSource="{Binding Devices}">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border Padding="7" StrokeShape="RoundRectangle 5">
+                            <Label HorizontalOptions="Center" Text="{Binding .}" />
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Label Text="Devices" />
+            <ScrollView HorizontalScrollBarVisibility="Never" Orientation="Horizontal">
+                <HorizontalStackLayout>
+                    <Border Padding="7" StrokeShape="RoundRectangle 5">
+                        <Label HorizontalOptions="Center" Text="TV" />
+                    </Border>
+                    <Border Padding="7" StrokeShape="RoundRectangle 5">
+                        <Label HorizontalOptions="Center" Text="Ar-Condicionado" />
+                    </Border>
+                    <Border Padding="7" StrokeShape="RoundRectangle 5">
+                        <Label HorizontalOptions="Center" Text="Video Game" />
+                    </Border>
+                    <Border Padding="7" StrokeShape="RoundRectangle 5">
+                        <Label HorizontalOptions="Center" Text="Computador" />
+                    </Border>
+                    <Border Padding="7" StrokeShape="RoundRectangle 5">
+                        <Label HorizontalOptions="Center" Text="Notebook" />
+                    </Border>
+                </HorizontalStackLayout>
+            </ScrollView>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
