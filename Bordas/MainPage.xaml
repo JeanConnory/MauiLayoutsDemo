@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Bordas.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Border
+                Margin="10"
+                Padding="10"
+                HeightRequest="70"
+                Stroke="LightGray"
+                StrokeShape="RoundRectangle 14">
+                <VerticalStackLayout VerticalOptions="Center">
+                    <Label
+                        FontAttributes="Bold"
+                        Text="Omega 3"
+                        TextColor="Black" />
+                    <Label Text="1 tablet after meals 7 days" TextColor="Gray" />
+                </VerticalStackLayout>
+            </Border>
+            <Border
+                Margin="10"
+                Background="Black"
+                HeightRequest="60"
+                StrokeShape="RoundRectangle 30"
+                StrokeThickness="0"
+                VerticalOptions="End">
+                <HorizontalStackLayout
+                    HorizontalOptions="Center"
+                    Spacing="20"
+                    VerticalOptions="Center">
+                    <Label Text="Tabela" TextColor="White" />
+                    <Label Text="Documento" TextColor="White" />
+                    <Label Text="Video/Foto" TextColor="White" />
+                    <Label Text="Suporte" TextColor="White" />
+                </HorizontalStackLayout>
+            </Border>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
