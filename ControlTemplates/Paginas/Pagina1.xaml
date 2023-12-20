@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ControlTemplates.Paginas.Pagina1"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Pagina1"
+    ControlTemplate="{StaticResource MeuTemplate}">
+    <VerticalStackLayout>
+        <Label
+            HorizontalOptions="Center"
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" />
+        <Button
+            Clicked="ProximaTela"
+            HorizontalOptions="Fill"
+            Text="Próximo" />
+    </VerticalStackLayout>
+</ContentPage>
