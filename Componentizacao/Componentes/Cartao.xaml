@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="Componentizacao.Componentes.Cartao"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Name="MyControl"
+    BindingContext="{x:Reference MyControl}">
+    <Border
+        HeightRequest="125"
+        Stroke="Black"
+        StrokeShape="RoundRectangle 10"
+        WidthRequest="100">
+        <VerticalStackLayout>
+            <Image Source="{Binding EnderecoImagem}" />
+            <Label
+                HorizontalOptions="Center"
+                Text="{Binding Titulo}"
+                VerticalOptions="End" />
+        </VerticalStackLayout>
+    </Border>
+</ContentView>

@@ -28,7 +28,7 @@
                     Margin="20"
                     EffectStyle="Custom"
                     HeightRequest="100"
-                    TintColor="Blue"
+                    TintColor="Black"
                     TintOpacity=".15"
                     VerticalOptions="Center">
                     <Label Padding="20" Text="Ola mundo!" />

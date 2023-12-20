@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Componentizacao.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Componentizacao.Componentes">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <local:Cartao EnderecoImagem="https://cdn2.iconfinder.com/data/icons/css-vol-2/24/menu-grid-o-256.png" Titulo="Menu" />
+            <local:Cartao EnderecoImagem="https://cdn1.iconfinder.com/data/icons/bootstrap-fill-vol-2/16/gear-fill-256.png" Titulo="Configuração" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

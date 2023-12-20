@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaHorizontal", "ListaHor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfeitoTransparente", "EfeitoTransparente\EfeitoTransparente.csproj", "{E0B48AED-823A-4654-8A4C-FE44948B2376}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Componentizacao", "Componentizacao\Componentizacao.csproj", "{E7A71523-95B3-4B0D-A09E-0E200796C9F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,12 @@ Global
 		{E0B48AED-823A-4654-8A4C-FE44948B2376}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0B48AED-823A-4654-8A4C-FE44948B2376}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E0B48AED-823A-4654-8A4C-FE44948B2376}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E7A71523-95B3-4B0D-A09E-0E200796C9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A71523-95B3-4B0D-A09E-0E200796C9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A71523-95B3-4B0D-A09E-0E200796C9F8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E7A71523-95B3-4B0D-A09E-0E200796C9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A71523-95B3-4B0D-A09E-0E200796C9F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A71523-95B3-4B0D-A09E-0E200796C9F8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
