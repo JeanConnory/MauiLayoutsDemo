@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="AbaCustomizada.Abas.Inicio"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="Inicio" />
+            <Image Source="https://plus.unsplash.com/premium_photo-1680806490620-b5bb8b693f89" />
+            <Image Source="https://plus.unsplash.com/premium_photo-1680806490620-b5bb8b693f89" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentView>
