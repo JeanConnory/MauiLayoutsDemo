@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiGraphics.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:componentes="clr-namespace:MauiGraphics.Componentes">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <componentes:Grafico x:Key="grafico">
+                <componentes:Grafico.Valores>
+                    <x:Array Type="{x:Type x:Int32}">
+                        <x:Int32>210</x:Int32>
+                        <x:Int32>50</x:Int32>
+                        <x:Int32>150</x:Int32>
+                    </x:Array>
+                </componentes:Grafico.Valores>
+            </componentes:Grafico>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            VerticalOptions="Center">
+            <GraphicsView
+                Drawable="{StaticResource grafico}"
+                HeightRequest="257"
+                WidthRequest="246" />
+            <GraphicsView HeightRequest="257" WidthRequest="246">
+                <GraphicsView.Drawable>
+                    <componentes:Grafico>
+                        <componentes:Grafico.Valores>
+                            <x:Array Type="{x:Type x:Int32}">
+                                <x:Int32>120</x:Int32>
+                                <x:Int32>220</x:Int32>
+                                <x:Int32>190</x:Int32>
+                            </x:Array>
+                        </componentes:Grafico.Valores>
+                    </componentes:Grafico>
+                </GraphicsView.Drawable>
+            </GraphicsView>
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>
