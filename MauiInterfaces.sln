@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lottie", "Lottie\Lottie.csproj", "{B2CEF3E0-5634-4D3C-A026-7D10D159192D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lottie", "Lottie\Lottie.csproj", "{B2CEF3E0-5634-4D3C-A026-7D10D159192D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bordas", "Bordas\Bordas.csproj", "{93F78989-8450-4216-BB03-2ED4D93FDBFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bordas", "Bordas\Bordas.csproj", "{93F78989-8450-4216-BB03-2ED4D93FDBFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaHorizontal", "ListaHorizontal\ListaHorizontal.csproj", "{7EA80706-464E-4C69-B877-721313DE27BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaHorizontal", "ListaHorizontal\ListaHorizontal.csproj", "{7EA80706-464E-4C69-B877-721313DE27BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfeitoTransparente", "EfeitoTransparente\EfeitoTransparente.csproj", "{E0B48AED-823A-4654-8A4C-FE44948B2376}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfeitoTransparente", "EfeitoTransparente\EfeitoTransparente.csproj", "{E0B48AED-823A-4654-8A4C-FE44948B2376}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Componentizacao", "Componentizacao\Componentizacao.csproj", "{E7A71523-95B3-4B0D-A09E-0E200796C9F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Componentizacao", "Componentizacao\Componentizacao.csproj", "{E7A71523-95B3-4B0D-A09E-0E200796C9F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbaCustomizada", "AbaCustomizada\AbaCustomizada.csproj", "{ABD91AE4-7281-48A0-8A7A-C0D61B377A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbaCustomizada", "AbaCustomizada\AbaCustomizada.csproj", "{ABD91AE4-7281-48A0-8A7A-C0D61B377A00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlTemplates", "ControlTemplates\ControlTemplates.csproj", "{4F8827BC-A23B-49FF-BE09-7B6252D36338}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlTemplates", "ControlTemplates\ControlTemplates.csproj", "{4F8827BC-A23B-49FF-BE09-7B6252D36338}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uranium", "Uranium\Uranium.csproj", "{C7696490-10F6-46F3-A5E6-6C84969B3BCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uranium", "Uranium\Uranium.csproj", "{C7696490-10F6-46F3-A5E6-6C84969B3BCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiGraphics", "MauiGraphics\MauiGraphics.csproj", "{8EDE6AA7-1F6C-4C40-870B-18CD04DD5AB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,12 @@ Global
 		{C7696490-10F6-46F3-A5E6-6C84969B3BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7696490-10F6-46F3-A5E6-6C84969B3BCA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C7696490-10F6-46F3-A5E6-6C84969B3BCA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8EDE6AA7-1F6C-4C40-870B-18CD04DD5AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDE6AA7-1F6C-4C40-870B-18CD04DD5AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDE6AA7-1F6C-4C40-870B-18CD04DD5AB0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8EDE6AA7-1F6C-4C40-870B-18CD04DD5AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDE6AA7-1F6C-4C40-870B-18CD04DD5AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDE6AA7-1F6C-4C40-870B-18CD04DD5AB0}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
